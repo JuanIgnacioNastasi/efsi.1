@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #161982;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 18, 117, 0.895);
+}
+
+.logo img {
+    height: 55px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+nav ul li a:hover {
+    color:#0a69f8;
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 5px 10px;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+}
+
+.main-info .start, .main-info .mascot {
+    width: 45%;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.main-info h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.match {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    margin-bottom: 35px;
+}
+
+.match .team img {
+    height: 80px;
+}
+
+.match span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.mascot-image img {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+}
+
+.mascot h3 {
+    text-align: center;
+    font-size: 27px;
+    margin-top: 30px;
+}
+
+.mvp {
+    text-align: center;
+    padding: 50px;
+}
+
+.mvp h2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.mvp .players {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.mvp .player img {
+    height: 190px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgba(0, 18, 117, 0.895);
+    text-align: center;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .social-media a {
+    display: inline-block;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+footer .social-media a img {
+    width: 100%;
+    height: auto;
+}
+p{
+    text-align: center 
+}
